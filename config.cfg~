@@ -1,0 +1,20 @@
+#Mysensors switch infomation
+[switch]
+#switch-uri=udp.mysensors.info
+#switch-uri=192.168.1.102
+switch-uri=localhost
+port=7070
+switch-name=home
+
+[device]
+device-name=c1
+owner-name=kasun
+#state=INITIAL
+
+[gpio]
+NightMode=13
+VisitorMode=15
+#Daymode=16
+
+[senze]
+boot=SHARE #gpio13 #gpio15 #cam @kasunhome
